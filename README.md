@@ -1,3 +1,33 @@
 # tecnomultimedia
 Explicación de la historia:
-La aventura gráfica va a tratar sobre el comienzo de la historia de Ali Babá y los cuarenta ladrones cuando Sharazada le cuenta la historia al sultán. Comienza con una pantalla en el castillo al amanecer cuando Sharazada abre el libro para leerle la historia al sultán. De esta pantalla pasa a una imagen de un bosque en donde en la cima de un árbol está Alí Babá espiando a unos ladrones que se acercan a una piedra. En esta oportunidad, el usuario tendrá que hacer click en la piedra, será evidente, y esta se abrirá-cerrará hasta que los ladrones se van del cuadro. La que sería la tercera pantalla, será la misma que la segunda pantalla solo que con la pregunta al usuario de dos opciones que podría realizar Ali Babá, bajar del árbol o esperar a que estén lejos los ladrones. De aqui surgen dos caminos. Si decide bajar rapidamente, en otra pantalla, un ladrón lo atrapa, y se reinicia el juego. Si decide esperar, salta a otra pantalla cuando Ali Babá ya está frente a la piedra. De aqui surgen dos opciones, irse con sus burros o quedarse a inspeccionar. Si se va con los burros, reinicia el juego, si se queda, tiene dos opciones decir Sésamo Abrete o Abrete Sésamo. Si se equivoca, reinicia el juego, si lo dice bien, la piedra se abre. Pasa de pantalla al interior de la cueva repleta de oro, y se ve la piedra cerrarse a su espalda, fin del juego. Se reinicia. La estética va a ser 2D vectorial, con un par de sombras y luces.
+La aventura gráfica va a tratar sobre el comienzo de la historia de Ali Babá y los cuarenta ladrones cuando Sharazada le cuenta la historia al sultán. 
+
+Pantalla 1: inicio, es una imagen de la ventana desde el castillo, tiene una botonera que te lleva el primer área a los créditos Pantalla 16 y el segundo al castillo Pantalla 2. Se clikea la opción deseada.
+
+Pantalla 2:es una imagen del castillo, se apreta la barra de espacio y se va a la pantalla 3.
+
+Pantalla 3: es una imagen del libro abierto, se aprieta la barra de espacio y se va a la pantalla 4.
+
+Pantalla 4: imagen del bosque, se ve a Ali sobre un árbol. Se apreta espacio, va a pantalla 5.
+
+Pantalla 5: aparecen los ladrones, se aprieta espacio. Va a pantalla 6.
+
+Pantalla 6: se superpone un recuadro de diálogo, que al apretar la piedra, te lleva a pantalla 7.
+
+Pantalla 7: imagen de la cueva abierta, a esta se le superpone la imagen de la pantalla 5, más un recuadro de diálogo que es la pantalla 8. Click sobre la cueva, se cierra la entrada con la piedra.
+
+Pantalla 9: es como la 4 pero con un recuadro de preguntas opcionales de camino. El área 1 te lleva a la pantalla 10 en donde es atrapado, de ahí va a pantalla 16 que es créditos y de ahí vuelve a inicio, P1. 
+
+Pantalla 9, opción área 2, te lleva a Pantalla 11.
+
+Pantalla 11: imagen de la cueva cerrada por la piedra junto a Alí Babá, con espacio se va a pantalla 12.
+
+Pantalla 12: se superpone un recuadro de pregunta con dos caminos posibles a clikear, área 1, va a pantalla 13 con una imagen de los asnos, luego con espacio a créditos P16, y de nuevo con espacio a inicio P1.
+
+Pantalla 12, segunda opción, área 2, te lleva a pantalla 14.
+
+Pantalla 14: la cueva se abre y Ali ve el interior. Con barra de espacio, se va a pantalla 15. 
+
+Pantalla 15: se ve a Ali rodeado de oro, con espacio va a créditos P16, y de ahí con espacio a P1, inicio.
+
+La estética va a ser 2D vectorial, con un par de sombras y luces.
