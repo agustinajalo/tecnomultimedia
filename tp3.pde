@@ -10,14 +10,14 @@ void draw (){
   for(int i=0; i<repro; i ++) {// ciclo for simple
     for (int j=0;j<repro;j++){
     noStroke();    
-    ellipse (i*tam+tam/2, j*tam+tam/2, tam,tam);   // circulos seguidos
+    ellipse (i*tam+tam/2, j*tam+tam/2, tam,tam); // circulos seguidos
     fill(193, random(180, 255), random(140,249)); //variable random
   textAlign(CENTER);
    textSize(15);
-   //fill(0);
+   //fill(0); // no logré rellenar solo el texto
    text("Haga click para ver el número oculto", mouseX, mouseY);
   
-  if (mousePressed|| frameCount>90 && frameCount<110) {      //  condicional sin else + evento 
+  if (mousePressed|| frameCount>90 && frameCount<110) { //  condicional if sin else + evento + variable framecount
       ellipse (225, 405, 30,30); ellipse (225, 375, 30,30);  ellipse (225, 345, 30,30); ellipse (225, 315, 30,30);  ellipse (225, 285, 30,30); 
       ellipse (225, 255, 30,30); ellipse (225, 225, 30,30); ellipse (225, 195, 30,30); ellipse (225, 165, 30,30);
       ellipse (225, 135, 30,30);ellipse (195, 135, 30,30);ellipse (165, 135, 30,30); ellipse (135, 135, 30,30);ellipse (105, 135, 30,30);
